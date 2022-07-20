@@ -41,15 +41,15 @@ Explanation 1
  
  CODE
  
- n=int(input())
+n=int(input())
 if(n%2!=0):
-    print("Weird")
+		print("Weird")
 val=[2,4]
 if(n in val):
-    print("Not Weird")
+		print("Not Weird")
 val1=[6,8,10,12,14,16,18,20]
 if(n in val1):
-    print("Weird")
+		print("Weird")
 if(n>20):
-    if(n%2==0):
-        print("Not Weird")
+		if(n%2==0):
+				print("Not Weird")
